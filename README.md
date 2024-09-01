@@ -12,18 +12,17 @@ This DOM project is a simple web application that displays a menu of items categ
 * createMenuItems(menuItems): Generates HTML for menu items.
 * addToCart(): Increases the cart count when an item is added.
 * updateCartCount(): Updates the cart count display.
+* 
 ##How to Run
-Clone the repository:
+1. Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/your-username/menu-item-catalog.git
-Navigate to the project directory:
 
-bash
-Copy code
+2. Navigate to the project directory:
+
 cd menu-item-catalog
-Open index.html in your web browser.
+
+3. Open index.html in your web browser.
 
 ##Installation
 No installation is necessary. Simply open the index.html file in a web browser to view the application.
