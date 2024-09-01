@@ -313,16 +313,16 @@ searchInput.addEventListener("keyup", function (event) {
 
 //red button
 
-let cartCount =0;
+let cartCount = 0;
 
-function addToCart(){
-    cartCount+=1;
-    updateCartCount();
+function addToCart() {
+  cartCount += 1;
+  updateCartCount();
 }
 
-updateCartCount(){
-    const cartCountElement = document.getElementById('cart-count');
-    if(cartCountElement){
-        cartCountElement.textContent=cartCount;
-    }
+function updateCartCount() {
+  const cartCountElement = document.getElementById("cart-count");
+  if (cartCountElement) {
+    cartCountElement.textContent = cartCount;
+  }
 }
